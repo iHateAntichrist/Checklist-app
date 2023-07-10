@@ -1,3 +1,3 @@
 # React Todo App
 
-https://iHateAntichrist.github.io/react_todo-app-with-api
+Demo link - https://iHateAntichrist.github.io/react_todo-app
