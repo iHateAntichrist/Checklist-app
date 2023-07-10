@@ -13,8 +13,9 @@ import { ErrorType } from './types/ErrorType';
 import {
   deleteTodos, getTodos, postTodos, patchTodoStatus, patchTodoTitle,
 } from './api/todos';
-import { USER_ID } from './utils/userId';
 import { filterTodosBySelectOptions } from './utils/filterTodos';
+
+import { USER_ID } from './utils/userId';
 
 export const App: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
